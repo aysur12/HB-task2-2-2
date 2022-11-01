@@ -1,0 +1,37 @@
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  gap: 30px;
+}
+
+.number-input {
+  display: block;
+  width: 200px;
+  font: inherit;
+  color: rgb(61, 71, 82);
+  height: 1.4375em;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.number-button {
+  max-width: 200px;
+  color: white;
+  background-color: cornflowerblue;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+.number-paragraph {
+  width: 350px;
+  font-size: 20px;
+  color: darkblue;
+}
